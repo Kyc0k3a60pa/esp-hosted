@@ -6,7 +6,7 @@ CROSS_COMPILE := /usr/bin/arm-linux-gnueabihf-
 # Linux Kernel header
 KERNEL := /lib/modules/$(shell uname -r)/build
 # Architecture
-ARCH := arm
+ARCH := riskv64
 
 #Default interface is sdio
 MODULE_NAME=esp32_sdio
